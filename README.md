@@ -1,12 +1,21 @@
-# React + Vite
+# UIKit Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/enka78/myuikit)](https://github.com/enka78/myuikit/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/enka78/myuikit)](https://github.com/enka78/myuikit/issues)
 
-Currently, two official plugins are available:
+Modern web uygulamaları için açık kaynaklı UI bileşenleri kütüphanesi. React, Vue ve Next.js gibi popüler framework'lerle uyumlu.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![UIKit Components Demo](docs/demo-screenshot.png)
 
-## Expanding the ESLint configuration
+## Özellikler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🚀 Modüler Tasarım - Sadece kullandığınız bileşenleri yükleyin
+- 🌈 Kapsamlı Temalandırma - Kolayca özelleştirilebilir
+- 📱 Responsive - Tüm cihazlarda mükemmel görüntü
+- ♿️ Erişilebilir - WCAG standartlarına uygun
+
+## Kurulum
+
+```bash
+npm install @uikit/core
