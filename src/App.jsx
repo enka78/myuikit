@@ -12,7 +12,7 @@ const App = () => {
   const [activeTab, setActiveTab] = useState('home');
   const [copiedStates, setCopiedStates] = useState({});
 
-  const handleCopyCode = (id: string, code: string) => {
+  const handleCopyCode = (id, code) => {
     navigator.clipboard.writeText(code);
     setCopiedStates({...copiedStates, [id]: true});
     setTimeout(() => setCopiedStates({...copiedStates, [id]: false}), 2000);
